@@ -27,6 +27,10 @@ public class Polinomio {
 	public double evaluarMSucesivas (double x){ return 0; }
 	public double evaluarRecursiva (double x){ return 0; }
 	public double evaluarRecursivaPar (double x) { return 0; }
+	
+	/**
+	 * Dinamica=> O(n)
+	 */
 	public double evaluarProgDinamica (double x) { 
 
 			double resultado = coeficientes[grado], potencia=1;
